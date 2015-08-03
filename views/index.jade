@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  form#formLoginUser(name="loginuser",method="get",action="/login")
+        button#btnLogin(type="submit") Login
+        
+  form#formLoginUser(name="logoutuser",method="get",action="/logout")
+        button#btnLogout(type="submit") Logout

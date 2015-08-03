@@ -1,0 +1,24 @@
+extends layout
+
+block content
+
+	// Wrapper
+	#wrapper
+
+		//CUSTOMER LIST
+		h2 Customter List
+		#customerlist
+			table
+				thead
+					//th Pic
+					th UserName
+					//th Type
+					th Email
+					th Phone
+					th Edit
+					th Delete
+				tbody
+			a(href="/create" id="acreate")= "Create customer"
+		//	/CUSTOMER LIST
+
+	//	/WRAPPER

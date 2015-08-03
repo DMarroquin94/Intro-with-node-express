@@ -1,0 +1,119 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: -webkit-linear-gradient(white, black);
+  height: 1006.5px;
+}
+
+h2 {
+	margin:0 0 0 0;
+	color: white;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#wrapper {
+	background-color: gray;
+	border-radius: 10px;
+	padding: 25px;
+}
+
+#customerlist {
+	margin:0 0 50px 0;
+}
+
+#customerlist table {
+	border-collapse:separate;
+	border-spacing:1px;
+	background:#CCC;
+	border-radius: 10px;
+}
+
+#customerlist table th {
+	background:#EEE;
+	font-weight:600;
+	padding:10px 20px;
+	text-align:center;
+}
+
+#customerlist table tbody {
+	padding:0; margin:0;
+	border-collapse:collapse;
+	border-spacing:0px;
+}
+
+#customerlist table td {
+	background:#FFF;
+	padding:5px 10px;
+	text-align:center;
+}
+
+#customerlist {
+	width:250px;
+	margin-right: auto;
+	margin-left: auto;
+	top:0; 
+}
+
+#customerlist p {
+	padding:15px;
+	border:1px solid #CCC;
+	background:rgba(80,120,255,0.05);
+}
+
+fieldset {
+	border:0;
+	padding:0; margin:0;
+}
+
+nav ul {
+	list-style-type: none;
+
+}
+
+nav ul li a {
+	margin-right: 50px;
+}
+
+form {
+	width: 200px;
+	background-color: gray;
+	padding: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 25px;
+}
+
+form input {
+	display: block;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+form button {
+	margin-left: 65px;
+	margin-top: 20px;
+}
+
+#acreate {
+	position: relative;
+	top: 20px; 
+	left: 320px;
+}
+
+form#formLoginUser {
+	margin-bottom: -50px;
+}
+
+button#btnLogin {
+	margin-left: 71px;
+	margin-top: -0px;
+}
+
+button {
+	border-radius: 5px;
+	background-color: white;
+	font-size: 20px;
+}
